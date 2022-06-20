@@ -8,7 +8,7 @@ app = Flask(__name__)
 filename = 'Model_GYM.pkl'
 model = pickle.load(open(filename, 'rb'))
 
-@app.route('/',methods=["GET")
+@app.route('/',methods=["GET"])
 def man():
     return render_template('home.html')
 
