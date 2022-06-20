@@ -3,9 +3,9 @@
 <center>
 <h1> Gym App Prediction </h1><br>
 <from method="POST", action="{{url_for('home')}}">
-<b> Age(years): <input type="text", name='a' , placeholder="enter 1"> <br><br>
-Height(ft): <input type="text", name='b' , placeholder="enter 2"> <br><br>
-Weight(kgs):<input type="text", name='c', placeholder="enter 3"> <br><br>
+<b> Age(years): <input type="number", name='a' , placeholder="enter 1"> <br><br>
+Height(ft): <input type="number", name='b' , placeholder="enter 2"> <br><br>
+Weight(kgs):<input type="number", name='c', placeholder="enter 3"> <br><br>
 <input type="submit", value='predict!'>
 </form>
 </center>
