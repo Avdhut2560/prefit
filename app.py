@@ -11,7 +11,7 @@ def man():
     return render_template('home.html')
 
 @app.route('/predict',methods=['POST'])
-def homr():
+def home():
     data1 = request.form['a']
     data2 = request.form['b']
     data3 = request.form['c']
