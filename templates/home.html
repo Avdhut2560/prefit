@@ -1,14 +1,20 @@
 <html>
-<body bgcolor=#92a8d1>
-<center>
-<h1> Gym App Prediction </h1><br>
-<from method="POST", action="{{url_for('home')}}">
-<b> First value : <input type="text", name='a', placeholder="enter 1"> <br><br><br>
-Second value : <input type="text", name='b', placeholder="enter 2"> <br><br><br>
-Third value : <input type="text", name='c', placeholder="enter 3"> <br><br><br></b>
-<input type="submit", value='predict!'/>
-</form>
-<img src='static\gymlogo.png',alt="machinne learning">
-</center>
-</body>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> HEALTH DETECTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> First value :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+            Second value :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+            Third value :  <input type="text", name='d', placeholder="enter 3"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+        <img src='static\gymlogo.png' alt="gymlogo">
+        
+    </center>
+
+    </body>
 </html>
