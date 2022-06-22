@@ -7,19 +7,25 @@
         <h1>  PREDICTION :  </h1>
     
     {%if data == 0%}
-    <h1>You're Underweight</h1>  
+    <h1>You're Underweight</h1>
+    <img src='static\under weight .png'>
       
     {%elif data == 1%}
-    <h1>You're Healthy!</h1> 
+    <h1>You're Healthy!</h1>
+    <img src='static\healthy.png'>
     
     {%elif data == 2%}
     <h1>You're Overweight!</h1> 
-    
+    <img src='static\overweight.png'>
+        
     {%elif data == 3%}
-    <h1>You're Obese!</h1> 
+    <h1>You're Obese!</h1>
+    <img src='static\obese.png'>
+    
 
     {%elif data == 4%}
     <h1>You're Extremely Obese!</h1>
+    <img src='static\Extremely obese.png'>
     
     {%endif%}
 
